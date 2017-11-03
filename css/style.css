@@ -1,0 +1,276 @@
+body, html{
+  margin-top: 50px;
+  font-size: 18px;
+  background-color:#eaecee;
+
+height:100%;
+margin:0;
+}
+
+.pimg1, .pimg2, .pimg3 .pimg4 .pimg5 .pimg6{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/image4.jpeg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/image2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../img/image3.jpg');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('../img/pic8.jpeg');
+  min-height:400px;
+}
+
+.pimg5{
+  background-image:url('../img/pic9.jpeg');
+  min-height:400px;
+}
+
+.pimg6{
+  background-image:url('../img/pic12.jpeg');
+  min-height:400px;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  }
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Poppins;
+}
+
+p{
+  font-family: Roboto;
+}
+
+.navbar{
+  font-size: 15px;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.navbar-default{
+  background: #f9e79f;
+  border: 0;
+  font-family: Poppins;
+  }
+
+.navbar-brand{
+  font-size: 26px;
+  color:  #2c3e50 !important;
+  font-weight: bold;
+}
+
+
+#showcase h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#showcase img{
+  width: 100%;
+  margin-left: 20px;
+}
+
+#showcase .showcase-btn {
+    position: relative;
+    width:120px;
+    margin:auto;
+    margin-left:2vh;
+    margin-bottom:2vh;
+}
+
+#showcase .showcase-right{
+  margin-top: 15px;
+}
+
+#showcase .showcase-right{
+      padding: 15px;
+        }
+
+#showcase .showcase-left{
+      padding: 15px;
+        }
+
+#covers img{
+  background: :#eaecee;
+  width: 60%;
+  height: 60%;
+}
+
+
+#testimonial{
+  background:  #282e34;
+  color:#ddd;
+  padding: 70px 0 60px 0;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#testimonial p{
+  font-size: 26px;
+  font-family: 'Josefin Sans';
+  }
+
+#testimonial p.customer{
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+#info1 {
+  background: #eaecee;
+  padding: 50px 0 30px 0;
+}
+
+#info1 .info-right{
+      padding: 40px;
+}
+
+#info1 .info-left{
+      padding: 40px;
+}
+
+#info1 img{
+  width: 100%;
+  }
+
+  #info1 .info1-btn{
+      position: relative;
+      width:120px;
+      margin:auto;
+      margin-left:5vh;
+      }
+
+#info2{
+  background:  #282e34;
+  color:#ddd;
+      padding: 30px 0 30px 0;
+      }
+
+#info2 .info-right{
+              padding: 50px;
+        }
+
+#info2 .info-left{
+              padding: 50px;
+        }
+
+#info3 {
+  background:  #282e34;
+  color:#ddd;
+    padding: 30px 0 30px 0;
+    }
+
+#info3 .info3-right{
+              padding: 50px;
+        }
+
+#info3 .info3-left{
+              padding: 50px;
+        }
+
+#iotsoln .stay1 {
+           text-align: center;
+           font-size: 36px;
+           font-weight: bold;
+           font-family: Roboto;
+           padding-top: 10px;
+           color:   #154360;
+           width:100%
+         }
+
+#iotsoln .stay1d{
+  color:   #5499c7;
+  text-decoration: underline;
+}
+
+#iotsoln .stay2 {
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+        font-family: Roboto;
+        padding-top: 2px;
+        color:  #154360;
+        width:100%
+                  }
+
+#iotsoln {
+        padding: 30px;
+         }
+
+#iotsoln img{
+           width: 65%;
+           height: 65%;
+          margin-right: 60px;
+          }
+
+
+#contact{
+  background: #7dcea0;
+  padding: 20px;
+  color: #000;
+  border-top: #333 4px solid;
+  border-bottom: #333 4px solid;
+}
+
+#address {
+  background: #7dcea0;
+  padding: 20px 20px 20px 20px;
+}
+
+#contact .contact_us {
+  padding: 30px 10px 10px 10px ;
+}
+
+#contact .form-group{
+              padding: 2px 2px 2px 2px;
+        }
+
+#contact .span4{
+              padding: 20px 40px 40px 20px;
+        }
+
+#contact .span8{
+            padding: 20px 40px 40px 20px;
+          }
+
+footer{
+  padding: 20px;
+}
